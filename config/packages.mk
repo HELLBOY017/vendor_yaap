@@ -78,6 +78,7 @@ endif
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat \
     librsjni
 
 # Config
