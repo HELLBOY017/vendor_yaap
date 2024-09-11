@@ -110,3 +110,10 @@ PRODUCT_BOOT_JARS += \
 # WiFi
 PRODUCT_PACKAGES += \
     libwpa_client
+
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.base@1.0 \
+    android.hidl.manager@1.0 \
+    android.hidl.base@1.0.vendor \
+    android.hidl.manager@1.0.vendor    
